@@ -1,0 +1,98 @@
+body {
+  background-color: #dce0fd;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+
+header, footer, main {
+  margin: 0.5rem;
+}
+
+header, footer {
+  color: white;
+  background-color: #1A237E;
+}
+
+header div {
+  padding: 0.75rem;
+}
+
+header nav {
+  background-color: #3F51B5;
+  padding: 0.2rem
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: #00B0FF;
+  background-color: #F50057;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h1+p {
+  font-size: 0.75rem;
+}
+
+main {
+  background-color: white;
+  padding: 0.25rem;
+}
+
+main section {
+  margin: 0.25rem;
+  border: solid 1px #C5CAE9;
+}
+
+section figure {
+  background-color: #C5CAE9;
+}
+
+section figure figcaption {
+  color: #7986CB;
+  padding: 0.5rem;
+}
+
+section div p {
+  font-size: 0.85rem;
+  margin: 0.5rem;
+}
+
+h3 {
+  color: white;
+  background-color: #7986CB;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+
+section#reviews div {
+  margin: 0.5rem;
+  border-bottom: solid 1px #C5CAE9;
+}
+
+p.byline {
+  color: #7886CB;
+  font-style: italic;
+}
+
+p.byline time {
+  color: red;
+}
+
+footer p {
+  font-size: 0.75em;
+  padding: 0.25rem;
+}
