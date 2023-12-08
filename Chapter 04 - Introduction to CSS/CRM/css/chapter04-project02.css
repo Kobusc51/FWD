@@ -1,0 +1,116 @@
+body {
+  background-color: #d6d8d8;
+  font-family: Roboto;
+}
+
+a:hover {
+  color: #00B0FF;
+  background-color: #F50057;
+}
+
+header>nav#mainMenu {
+  background-color: #263238;
+}
+
+header>nav#mainMenu>ul {
+  text-align: right;
+  padding: 0rem 5rem;
+}
+
+ul>li {
+  display: inline-block;
+}
+
+header>nav#mainMenu>ul>li {
+  padding: 0rem 1rem;
+}
+
+h1, h3 {
+  background-image: url("../images/header-background.png");
+}
+
+h3 {
+  color: white;
+  padding: 0.5rem;
+}
+
+header>h1 {
+  color: white;
+  font-size: 2rem;
+  padding-left: 5rem;
+}
+
+header>nav#secondaryMenu {
+  background-color: #607D8B;
+}
+
+header>nav#secondaryMenu>ul {
+  padding-left: 4rem;
+}
+
+header>nav#secondaryMenu>ul>li {
+  padding-left: 1rem;;
+}
+
+header>h1>span {
+  color: red;
+}
+
+article#mainContact>div {
+  margin: 1rem 5rem;
+  padding: 1rem;
+  background-color: white;
+  text-align: center;
+}
+
+article>section {
+  margin: 1rem 5rem;
+  background-color: white;
+  border: solid 1px black
+}
+
+article#mainContact>section>div.actions {
+  background-color: #607D8B;
+}
+
+article#mainContact>section>div.actions>ul>li {
+  background-color: #FF3D00;
+  margin: 0.5rem;
+  padding: 0.25rem;
+  border-radius: 5px;
+}
+
+article#mainContact>section>div.actions>ul>li>a.actionEdit:before {
+  content: url(../images/edit.png);
+  padding-right: 0.25rem;
+}
+
+article#mainContact>section>div.actions>ul>li>a.actionFlag:before {
+  content: url(../images/flag.png);
+  padding-right: 0.25rem;
+}
+
+a[href^="mailto"] {
+  background: url(../images/email.png) no-repeat 0 3px;
+  padding-left: 1rem;
+}
+
+a[href^="tel"] {
+  background: url(../images/call.png) no-repeat 0 3px;
+  padding-left: 1rem;
+}
+
+article#mainContact>section>div.actions>ul>li>a:visited {
+  color: white;
+}
+
+footer {
+  background-color: #263238;
+  padding: 0.5rem;
+}
+
+footer>p {
+  padding-left: 5.5rem;
+  color: white;
+  font-size: 0.75rem;
+}
