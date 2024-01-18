@@ -12,24 +12,51 @@
       <fieldset>
         <legend>Sample Choice Controls</legend>
             <p>
-              <label>Countries: </label><br/>
+              <label for="country">Countries: </label><br/>
+              <select name="country" id="country">
+                <option>Australia</option>
+                <option>Canada</option>
+                <option>France</option>
+                <option>Sweden</option>
+                <option>Thailand</option>
+                <option>United States</option>
+              </select>
 
             </p>
             <p>
-              <label>Continent: </label><br/>
+              <label for="continent">Continent: </label><br/>
+              <select size="4" name="continent" id="continent">
+                <option value="NA">North America</option>
+                <option value="EU">Europe</option>
+                <option value="AS">Asia</option>
+                <option value="SA">South America</option>
+              </select>
 
             </p>
             <p>
-              <label>City: </label><br/>
-
+              <label for="city">City: </label><br/>
+              <select name="city" id="city">
+                <optgroup label="North America">
+                  <option>Calgary</option>
+                  <option>Los Angelis</option>
+                </optgroup>
+                <optgroup label="Europe">
+                  <option>London</option>
+                  <option>Paris</option>
+                  <option>Prague</option>
+                </optgroup>
+              </select>
             </p>
             <p>
               <label>Gender of Traveller: </label><br/>
-
+              <input type="radio" name="gender" value="1">Female<br>
+              <input type="radio" name="gender" value="2">Male<br>
             </p>
             <p>
               <label>How did you hear about the site: </label><br/>
-
+              <input type="checkbox" name="hear" value="email">Email<br>
+              <input type="checkbox" name="hear" value="friend">Friend<br>
+              <input type="checkbox" name="hear" value="website">Website<br>
             </p>
 
         <input type="submit" />

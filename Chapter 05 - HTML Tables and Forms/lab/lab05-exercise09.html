@@ -8,29 +8,29 @@
     </style>
   </head>
   <body>
-    <form method="get" action="http://www.randyconnolly.com/tests/process.php">
+    <form method="" action="http://www.randyconnolly.com/tests/process.php">
       <fieldset>
         <legend>Sample Text Fields</legend>
         <p>
-          <label>Title: </label><br/>
-
+          <label for="title">Title:</label><br/>
+          <input type="text" name="title" id="title">
         </p>
         <p>
-          <label>Password: </label><br/>
-
+          <label for="password">Password:</label><br/>
+          <input type="password" name="pass" size="8" id="password">
         </p>
         <p>
-          <label>Email: </label><br/>
-
+          <label for="email">Email:</label><br/>
+          <input type="email" name="email" id="email">
         </p>
 
         <p>
-          <label>Website: </label><br/>
-
+          <label for="website">Website:</label><br/>
+          <input type="url" id="website">
         </p>
         <p>
-          <label>Description: </label><br/>
-
+          <label for="description">Description:</label><br/>
+          <textarea placeholder="Enter a description" rows="5" cols="45" name="description" id="description"></textarea>
         </p>
 
         <input type="submit" />
