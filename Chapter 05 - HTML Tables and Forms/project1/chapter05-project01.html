@@ -10,9 +10,95 @@
   <body>
     <section>
       <h3>Data</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Date</th>
+            <th>Customer</th>
+            <th>Country</th>
+            <th>Progress</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <caption>Orderes</caption>
+          <tr>
+            <td>123</td>
+            <td><time>Sep 12, 2017</time></td>
+            <td>Jean Rousseau</td>
+            <td>France</td>
+            <td><progress value="100" max="100"></td>
+            <td><span class="status status-shipped">Shipped</span></td>
+          </tr>
+          <tr>
+            <td>144</td>
+            <td><time>Sep 20, 2017</time></td>
+            <td>Georg Hegel</td>
+            <td>Germany</td>
+            <td><progress value="100" max="100"></td>
+            <td><span class="status status-shipped">Shipped</span></td>
+          </tr>
+          <tr>
+            <td>149</td>
+            <td><time>Oct 3, 2017</time></td>
+            <td>John Locke</td>
+            <td>England</td>
+            <td><progress value="75" max="100"></td>
+            <td><span class="status status-processing">Processing</span></td>
+          </tr>
+          <tr>
+            <td>162</td>
+            <td><time>Oct 6, 2017</time></td>
+            <td>Thomas Hobbes</td>
+            <td>England</td>
+            <td><progress value="25" max="100"></td>
+            <td><span class="status-pending">Pending</span></td>
+          </tr>
+          <tr>
+            <td>177</td>
+            <td><time>Oct 10, 2017</time></td>
+            <td>Johann Fichte</td>
+            <td>Germany</td>
+            <td><progress value="25" max="100"></td>
+            <td><span class="status-pending">Pending</span></td>
+          </tr>
+        </tbody>
+      </table>
     </section>
     <section>
       <h3>Revise</h3>
+      <form method="post" action="http://www.randyconnolly.com/tests/process.php">
+        <fieldset>
+          <legend>Filter Orders</legend>
+          <p>
+            <label for="customer">Customer</label><br>
+            <input type="text" id="customer" name="customer" placeholder="Enter name">
+          </p>
+          <p>
+            <label for="country">Country</label><br>
+            <select id="country" name="country">
+              <option value="">Select a country</option>
+              <option>England</option>
+              <option>France</option>
+              <option>Germany</option>
+            </select>
+          </p>
+          <p>
+            <label>Status</label><br>
+            <input type="radio" name="status" value="pending">Pending
+            <input type="radio" name="status" value="processing">Processing
+            <input type="radio" name="status" value="shipped">Shipped
+          </p>
+          <p>
+            <label for="orderdate">Order Date</label><br>
+            <input type="date" id="orderdate" name="orderdate">
+          </p>
+          <p>
+            <input type="submit" value="Submit">
+          </p>
+        </fieldset>
+      </form>
     </section>
   </body>
 </html>

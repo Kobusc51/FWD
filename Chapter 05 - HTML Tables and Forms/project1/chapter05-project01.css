@@ -38,12 +38,39 @@ section h3 {
 
 /* table formatting */
 
+table {
+ margin: 0.3rem;
+ margin-left: auto;
+ margin-right: auto;
+}
+
 table caption {
   background-color: #607D8B;
   color: white;
+  padding: 0.4rem;
+}
+
+thead {
+  text-align: left;
+}
+
+td {
+  padding: 0.5rem;
 }
 
 /* form formatting */
+
+form {
+  margin: 0.3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+ }
+
+legend {
+  padding: 0.4rem;
+  width: 98.5%;
+  text-align: center;
+}
 
 legend {
   background-color: #607D8B;
@@ -54,8 +81,17 @@ input[type=submit] {
   background-color: #673AB7;
   color: white;
   border-style: none;
+  padding: 0.5rem 1.5rem;
 }
 
 input[type=submit]:hover {
   background-color: #6200EA;
+}
+
+form label {
+  font-weight: bolder;
+}
+
+fieldset p {
+  margin-top: 0.75rem;
 }
