@@ -70,3 +70,45 @@ fieldset {
 form p {
   margin-top: 0.5em;
 }
+
+table {
+  /* border: 1px solid red; */
+  width: 100%;
+  padding: 0.5rem;
+}
+
+/* td {
+  border: 1px solid blue;
+} */
+
+textarea#description, input#title {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+select#continent, select#country, input#city {
+  box-sizing: border-box;
+  width: 75%;
+}
+
+div.with-border {
+  border: 1px solid black;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+td.dark-blue {
+  background-color: #9FA8DA;
+  padding: 0.5rem;
+}
+
+tr.multi-column td {
+  padding: 1rem 0rem;;
+}
+
+input.form-button {
+  background-color: #E91E63;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
